@@ -1,0 +1,71 @@
+/* Stylesheet */
+.home{
+	background:green
+}
+
+.gallery{
+	background:red
+}
+
+.container{
+	background:white;
+	margin:0 auto;
+	overflow:auto;
+	width: 960px;
+}
+
+.home #home{
+	background:red;
+	font-weight:bold;
+}
+
+.gallery #gallery {
+	background:white;
+	font-weight:bold;
+}
+
+nav{
+	float:left;
+	width:960;
+	position:fixed;
+	top:0;
+	left:0px;
+}
+
+nav li{
+	
+	margin:10px;
+	padding: 20px;
+	list-style:none;
+	
+	
+}
+
+
+
+/*Gallery*/
+
+
+section {
+	
+	float:left;
+	margin: 20px;
+	background: blueviolet;
+	border: 10px solid #09F;
+	
+}
+
+section {
+	position: relative;
+}
+
+
+section h3{
+
+	position: absolute;
+	top: 0;
+	right: -50px;
+}
+
+
+
